@@ -115,6 +115,7 @@
   .travel-sec{
     margin: 100px 0;
   }
+  
   .tab-sec{
     /* margin: unset; */
     width: unset;
@@ -384,6 +385,9 @@
   }
   .accordion-head{
     width: unset;
+  }
+  .accordionBody{
+    padding-left: 0;
   }
   
   .acd-text-wrap>img {
