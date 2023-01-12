@@ -109,27 +109,26 @@ function closeNav() {
     document.getElementById("main").style.opacity = "1";
 }
 
-document.addEventListener("scroll", (event) => {
+function header_change(){
     if(window.scrollY > 0){
         $(".header-sec").addClass("white-bg");
     }
     else{
         $(".header-sec").removeClass("white-bg");
     }
-});
+}
 
-document.addEventListener("scroll", (event) => {
+function custom_anim(){
     const height = window.innerHeight;
-    var pos_top = $(document).scrollTop()
+    var pos_top = $(window).scrollTop()
     var pos_bottom = pos_top + height
-
     var anim_items = $(".custom-anim");
     var i;
 
     for (i = 0; i < anim_items.length; i++) {
         var x = $(anim_items[i]).offset().top;
         var y = $(anim_items[i]).height() + x;
-        console.log(y)
+        // console.log(y)
         if( x > pos_top && y < pos_bottom ){
             $(anim_items[i]).addClass($(anim_items[i]).data("anim"));
         }
@@ -137,4 +136,9 @@ document.addEventListener("scroll", (event) => {
             $(anim_items[i]).removeClass($(anim_items[i]).data("anim"));
         }
     }
-});
+}
+
+document.addEventListener("scroll", header_change);
+document.addEventListener("touchmove", header_change);
+document.addEventListener("scroll", custom_anim);
+document.addEventListener("touchmove", custom_anim);
