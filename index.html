@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arc Travel</title>
+    <link rel="icon" type="image/x-icon" href="Images/plane-icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="splide-4.1.3/dist/css/splide.min.css">
+    <link rel="stylesheet" href="splide-4.1.3/dist/css/themes/splide-sea-green.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <header>
+        <div class="hamburger">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="">
+                    <h2>ARC Travel</h2>
+                </a>
+            </div>
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">About</a>
+                <a href="#">Blog</a>
+                <a href="#">Destination</a>
+                <a href="#">Tour Packages</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+            <div id="main">
+                <button class="openbtn" onclick="openNav()">&#9776;</button>
+            </div>
+        </div>
+
+        <div class="header-sec">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="">
+                    <h2>ARC Travel</h2>
+                </a>
+            </div>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Destination</a></li>
+                    <li><a href="">Tour Packages</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="icons">
+                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="banner">
+        <!-- <div class="icon-div">
+            <div class="circle splide__arrow--prev your-class-prev" onclick="splide1.go('-${1}')"><i
+                    class="fas fa-long-arrow-alt-left"></i></div>
+            <div class="circle splide__arrow--prev your-class-next" onclick="splide1.go('+${1}')"><i
+                    class="fas fa-long-arrow-alt-right"></i></div>
+        </div> -->
+        <div class="splide splide1">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <div class="splide__slide__container banner-bg banner-one">
+                            <div class="banner-content">
+                                <p>Find excitement whereever you go</p>
+                                <h1>Make new <br> <span>Discoveries</span></h1>
+                                <a href=""><span>READ MORE</span></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="splide__slide__container banner-bg banner-two">
+                            <div class="banner-content">
+                                <p>Visit the beautiful landscapes</p>
+                                <h1>Discover new <br> <span>Ways</span></h1>
+                                <a href=""><span>READ MORE</span></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="splide__slide__container banner-bg banner-three">
+                            <div class="banner-content">
+                                <p>Let's explore the world together</p>
+                                <h1>Travel with <span>ARC</span></h1>
+                                <a href=""><span>READ MORE</span></a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="arrow-div">
+            <div class="circle splide__arrow--prev your-class-prev" onclick="abc.go('-${1}')"><i
+                    class="fas fa-arrow-left"></i></div>
+            <div class="circle splide__arrow--prev your-class-next" onclick="abc.go('+${1}')"><i
+                    class="fas fa-arrow-right"></i></div>
+        </div>
+        <img src="images/cloud.png" alt="">
+    </section>
+
+    <section class="about-sec">
+        <div class="about-grid">
+            <div class="grid-container">
+                <div class="item1 custom-anim" data-anim="anim1" style="--cdel: 0.6s">
+                    <img src="images/pic1.jpeg" alt="">
+                </div>
+                <div class="item2 custom-anim" data-anim="anim2" style="--cdel: 0.4s">
+                    <img src="images/pic2.jpeg" alt="">
+                </div>
+                <div class="item3 custom-anim" data-anim="anim3" style="--cdel: 0.4s">
+                    <img src="images/pic3.jpeg" alt="">
+                </div>
+                <div class="item4 custom-anim" data-anim="anim4" style="--cdel: 0.2s">
+                    <img src="images/pic4.jpg" alt="">
+                </div>
+                <div class="item5 custom-anim" data-anim="anim5">
+                    <img src="images/pic5.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="about-write custom-anim" data-anim="anim3">
+            <h5>A bit of interesting information about us</h5>
+            <h3>WE LOVE TO COME UP WITH INTERESTING TOURS AND MAKE YOU HAPPY</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                tristique. Duis
+                cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean
+                faucibus nibh et
+                justo cursus id rutrum lorem imperdiet.
+            </p>
+            <a href="">MORE ABOUT US</a>
+        </div>
+    </section>
+
+    <section class="deal-sec">
+        <h5>Last minute offer for you</h5>
+        <h3>DEALS & DISCOUNT</h3>
+        <div class="card-area">
+            <div class="left-card-area cart-hover">
+                <div class="cart-box"><a href=""> BOOK NOW</a></div>
+                <div class="card-content">
+                    <h4>$ 950.00 USD</h4>
+                    <h3>Adventures in Japan</h3>
+                    <p>Get an unforgettable experience from each of our trips! Travel with us!</p>
+                </div>
+            </div>
+            <div class="right-card-area">
+                <div class="top-card-area">
+                    <div class="first-card cart-hover">
+                        <div class="cart-box"><a href=""> BOOK NOW</a></div>
+                        <div class="card-content">
+                            <h4>$ 870.00 USD</h4>
+                            <h3>Extreme Madagascar</h3>
+                            <p>Enjoy each of our tours!</p>
+                        </div>
+                    </div>
+                    <div class="second-card cart-hover">
+                        <div class="cart-box"><a href=""> BOOK NOW</a></div>
+                        <div class="card-content">
+                            <h4>$ 900.00 USD</h4>
+                            <h3>Amazing Colombia</h3>
+                            <p>Enjoy each of our tours!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-card-area cart-hover">
+                    <div class="cart-box"><a href=""> BOOK NOW</a></div>
+                    <div class="card-content">
+                        <h4>$ 700.00 USD</h4>
+                        <h3>Aristocratic Lithuania</h3>
+                        <p>Get an unforgettable experience from each of our trips! Travel with us!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="travel-sec">
+        <h5>Book now & get a discount</h5>
+        <h3>OUR UPCOMING TRAVELS</h3>
+        <div class="tab-sec">
+            <ul class="tablist">
+                <li class="active" id="list1"><a href="javascript:void(0);" onclick="dataChange()">
+                        <h6>HIKING</h6>
+                        <p>DATE: JAN 16/DEC 16</p>
+                    </a></li>
+                <li class="hidden" id="list2"><a href="javascript:void(0);" onclick="dataChangeTwo()">
+                        <h6>RAFTING</h6>
+                        <p>DATE: JUN 16/JUL 16</p>
+                    </a></li>
+                <li class="hidden" id="list3"><a href="javascript:void(0);" onclick="dataChangeThree()">
+                        <h6>TREKKING</h6>
+                        <p>DATE: AUG 16/SEP 16</p>
+                    </a></li>
+                <li class="hidden" id="list4"><a href="javascript:void(0);" onclick="dataChangeFour()">
+                        <h6>EXTREME</h6>
+                        <p>DATE: SEP 16/OCT 16</p>
+                    </a></li>
+            </ul>
+            <div class="tab-data">
+                <div class="tab-active" id="tab1">
+                    <div class="accordion1">
+                        <div class="accordion-head">
+                            <div class="acd-text-wrap">
+                                <img src="images/acd1.jpeg" alt="">
+                                <div>
+                                    <p>6 Days</p>
+                                    <h4>Travels Through The Carpathians</h4>
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordionBody">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <a href="">DETAILS</a>
+                            <div class="acd-body-wrap">
+                                <img src="images/people1.jpg" alt="">
+                                <p><span>Lydia Jackson</span> Travel Guide</p>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion2">
+                        <div class="accordion-head">
+                            <div class="acd-text-wrap">
+                                <img src="images/acd2.jpeg" alt="">
+                                <div>
+                                    <p>5 Days</p>
+                                    <h4>Trips Through The Alps</h4>
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordionBody">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <a href="">DETAILS</a>
+                            <div class="acd-body-wrap">
+                                <img src="images/people2.jpg" alt="">
+                                <p><span>Guy Hawkins</span> Travel Guide</p>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion3">
+                        <div class="accordion-head">
+                            <div class="acd-text-wrap">
+                                <img src="images/acd3.jpeg" alt="">
+                                <div>
+                                    <p>4 Days</p>
+                                    <h4>Travel Through The Dolomites</h4>
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordionBody">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <a href="">DETAILS</a>
+                            <div class="acd-body-wrap">
+                                <img src="images/people3.jpg" alt="">
+                                <p><span>Leslie Alexander</span> Travel Guide</p>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-hidden" id="tab2">
+                    <div class="accordion1">
+                        <div class="accordion-head">
+                            <div class="acd-text-wrap">
+                                <img src="images/acd4.jpeg" alt="">
+                                <div>
+                                    <p>3 Days</p>
+                                    <h4>Rafting On Nesamovyty Lake</h4>
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordionBody">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <a href="">DETAILS</a>
+                            <div class="acd-body-wrap">
+                                <img src="images/people1.jpg" alt="">
+                                <p><span>Lydia Jackson</span> Travel Guide</p>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion2">
+                        <div class="accordion-head">
+                            <div class="acd-text-wrap">
+                                <img src="images/acd5.jpeg" alt="">
+                                <div>
+                                    <p>6 Days</p>
+                                    <h4>Rafting On Lake Cheremosh</h4>
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordionBody">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <a href="">DETAILS</a>
+                            <div class="acd-body-wrap">
+                                <img src="images/people2.jpg" alt="">
+                                <p><span>Guy Hawkins</span> Travel Guide</p>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion3">
+                        <div class="accordion-head">
+                            <div class="acd-text-wrap">
+                                <img src="images/acd6.jpg" alt="">
+                                <div>
+                                    <p>9 Days</p>
+                                    <h4>Rafting On Lake Teteriv</h4>
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordionBody">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <a href="">DETAILS</a>
+                            <div class="acd-body-wrap">
+                                <img src="images/people3.jpg" alt="">
+                                <p><span>Leslie Alexander</span> Travel Guide</p>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-hidden" id="tab3">
+                    <div class="accordion1">
+                        <div class="accordion-head">
+                            <div class="acd-text-wrap">
+                                <img src="images/pic3.jpeg" alt="">
+                                <div>
+                                    <p>16 Days</p>
+                                    <h4>Trekking Through Europe</h4>
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordionBody">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <a href="">DETAILS</a>
+                            <div class="acd-body-wrap">
+                                <img src="images/people1.jpg" alt="">
+                                <p><span>Lydia Jackson</span> Travel Guide</p>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion2">
+                        <div class="accordion-head">
+                            <div class="acd-text-wrap">
+                                <img src="images/acd7.jpeg" alt="">
+                                <div>
+                                    <p>14 Days</p>
+                                    <h4>Research Of The Iberian Peninsula</h4>
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordionBody">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <a href="">DETAILS</a>
+                            <div class="acd-body-wrap">
+                                <img src="images/people2.jpg" alt="">
+                                <p><span>Guy Hawkins</span> Travel Guide</p>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion3">
+                        <div class="accordion-head">
+                            <div class="acd-text-wrap">
+                                <img src="images/pic1.jpeg" alt="">
+                                <div>
+                                    <p>10 Days</p>
+                                    <h4>Trekking Through The Atlantic Islands</h4>
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordionBody">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <a href="">DETAILS</a>
+                            <div class="acd-body-wrap">
+                                <img src="images/people3.jpg" alt="">
+                                <p><span>Leslie Alexander</span> Travel Guide</p>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-hidden" id="tab4">
+                    <div class="accordion1">
+                        <div class="accordion-head">
+                            <div class="acd-text-wrap">
+                                <img src="images/acd8.jpeg" alt="">
+                                <div>
+                                    <p>22 Days</p>
+                                    <h4>Interesting Adventures in Sri Lanka</h4>
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordionBody">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <a href="">DETAILS</a>
+                            <div class="acd-body-wrap">
+                                <img src="images/people1.jpg" alt="">
+                                <p><span>Lydia Jackson</span> Travel Guide</p>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion2">
+                        <div class="accordion-head">
+                            <div class="acd-text-wrap">
+                                <img src="images/pic5.jpeg" alt="">
+                                <div>
+                                    <p>18 Days</p>
+                                    <h4>Mysteries Of Madagascar</h4>
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordionBody">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <a href="">DETAILS</a>
+                            <div class="acd-body-wrap">
+                                <img src="images/people2.jpg" alt="">
+                                <p><span>Guy Hawkins</span> Travel Guide</p>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion3">
+                        <div class="accordion-head">
+                            <div class="acd-text-wrap">
+                                <img src="images/acd3.jpeg" alt="">
+                                <div>
+                                    <p>14 Days</p>
+                                    <h4>Extreme In Bali</h4>
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordionBody">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <a href="">DETAILS</a>
+                            <div class="acd-body-wrap">
+                                <img src="images/people3.jpg" alt="">
+                                <p><span>Leslie Alexander</span> Travel Guide</p>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tours-sec">
+        <h5>Travel far enough, meet yourself</h5>
+        <h3>MOST POPULAR TOURS</h3>
+        <div class="splide splide2">
+            <div class="splide__track">
+                <ul class="splide__list tour-card-list">
+                    <li class="splide__slide">
+                        <div class="splide__slide__container tour-card">
+                            <div class="tour-img tour-img1">
+                                <div class="tour-img-content">
+                                    <h4>Adventures In Japan</h4>
+                                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i>
+                                        <span> ( 5.0 Rating )</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="tour-info">
+                                <div class="icon-text-wrap">
+                                    <i class="fas fa-compass"></i>
+                                    <span> 8 Days</span>
+                                </div>
+                                <!-- <div class="side-border"></div> -->
+                                <div class="icon-text-wrap">
+                                    <i class="fas fa-compass"></i>
+                                    <span>Adventure</span>
+                                </div>
+                                <!-- <div class="side-border"></div> -->
+                                <div class="icon-text-wrap">
+                                    <i class="fas fa-compass"></i>
+                                    <span>16+ Age</span>
+                                </div>
+                            </div>
+                            <div class="tour-details">
+                                <h3>$ 950.00 USD <span>/ Person</span></h3>
+                                <p>Our travels are different from all the others! We love our business and want to see
+                                    happy customers, so we always do our best for your comfort!</p>
+                                <a href="">BOOK NOW</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="splide__slide__container tour-card">
+                            <div class="tour-img tour-img2">
+                                <div class="tour-img-content">
+                                    <h4>Island Life</h4>
+                                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i>
+                                        <span> ( 4.5 Rating )</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="tour-info">
+                                <div class="icon-text-wrap">
+                                    <i class="fas fa-compass"></i>
+                                    <span> 12 Days</span>
+                                </div>
+                                <!-- <div class="side-border"></div> -->
+                                <div class="icon-text-wrap">
+                                    <i class="fas fa-compass"></i>
+                                    <span>Exotic</span>
+                                </div>
+                                <!-- <div class="side-border"></div> -->
+                                <div class="icon-text-wrap">
+                                    <i class="fas fa-compass"></i>
+                                    <span>16+ Age</span>
+                                </div>
+                            </div>
+                            <div class="tour-details">
+                                <h3>$ 870.00 USD <span>/ Person</span></h3>
+                                <p>Our travels are different from all the others! We love our business and want to see
+                                    happy customers, so we always do our best for your comfort!</p>
+                                <a href="">BOOK NOW</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="splide__slide__container tour-card">
+                            <div class="tour-img tour-img3">
+                                <div class="tour-img-content">
+                                    <h4>Hobbit Houses</h4>
+                                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i>
+                                        <span> ( 5.0 Rating )</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="tour-info">
+                                <div class="icon-text-wrap">
+                                    <i class="fas fa-compass"></i>
+                                    <span> 6 Days</span>
+                                </div>
+                                <!-- <div class="side-border"></div> -->
+                                <div class="icon-text-wrap">
+                                    <i class="fas fa-compass"></i>
+                                    <span>Romantic</span>
+                                </div>
+                                <!-- <div class="side-border"></div> -->
+                                <div class="icon-text-wrap">
+                                    <i class="fas fa-compass"></i>
+                                    <span>16+ Age</span>
+                                </div>
+                            </div>
+                            <div class="tour-details">
+                                <h3>$ 900.00 USD <span>/ Person</span></h3>
+                                <p>Our travels are different from all the others! We love our business and want to see
+                                    happy customers, so we always do our best for your comfort!</p>
+                                <a href="">BOOK NOW</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="splide__slide__container tour-card">
+                            <div class="tour-img tour-img4">
+                                <div class="tour-img-content">
+                                    <h4>Underwater World</h4>
+                                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i>
+                                        <span> ( 4.8 Rating )</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="tour-info">
+                                <div class="icon-text-wrap">
+                                    <i class="fas fa-compass"></i>
+                                    <span> 6 Days</span>
+                                </div>
+                                <!-- <div class="side-border"></div> -->
+                                <div class="icon-text-wrap">
+                                    <i class="fas fa-compass"></i>
+                                    <span>Family</span>
+                                </div>
+                                <!-- <div class="side-border"></div> -->
+                                <div class="icon-text-wrap">
+                                    <i class="fas fa-compass"></i>
+                                    <span>12+ Age</span>
+                                </div>
+                            </div>
+                            <div class="tour-details">
+                                <h3>$ 500.00 USD <span>/ Person</span></h3>
+                                <p>Our travels are different from all the others! We love our business and want to see
+                                    happy customers, so we always do our best for your comfort!</p>
+                                <a href="">BOOK NOW</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="splide__slide__container tour-card">
+                            <div class="tour-img tour-img5">
+                                <div class="tour-img-content">
+                                    <h4>Travel To The Colosseum</h4>
+                                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i>
+                                        <span> ( 5.0 Rating )</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="tour-info">
+                                <div class="icon-text-wrap">
+                                    <i class="fas fa-compass"></i>
+                                    <span> 10 Days</span>
+                                </div>
+                                <!-- <div class="side-border"></div> -->
+                                <div class="icon-text-wrap">
+                                    <i class="fas fa-compass"></i>
+                                    <span>Budget</span>
+                                </div>
+                                <!-- <div class="side-border"></div> -->
+                                <div class="icon-text-wrap">
+                                    <i class="fas fa-compass"></i>
+                                    <span>14+ Age</span>
+                                </div>
+                            </div>
+                            <div class="tour-details">
+                                <h3>$ 700.00 USD <span>/ Person</span></h3>
+                                <p>Our travels are different from all the others! We love our business and want to see
+                                    happy customers, so we always do our best for your comfort!</p>
+                                <a href="">BOOK NOW</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="guide-sec">
+        <h5>People who create a fairy tale for you</h5>
+        <h3>MEET OUR GUIDES</h3>
+        <div class="guide-area">
+            <div class="arrow-left" onclick="splide3.go('-${3}')">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+            <div class="splide splide3">
+                <div class="splide__track">
+                    <ul class="splide__list guide-list">
+                        <li class="splide__slide">
+                            <div class="splide__container image-hover">
+                                <div class="guide-img">
+                                    <img src="images/people1.jpg" alt="">
+                                </div>
+                                <div class="icon-box">
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                                <h4>Lydia Jackson</h4>
+                                <p>Tourist Guide</p>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="splide__container image-hover">
+                                <div class="guide-img">
+                                    <img src="images/people2.jpg" alt="">
+                                </div>
+                                <div class="icon-box">
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                                <h4>Guy Hawkins</h4>
+                                <p>Tourist Guide</p>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="splide__container image-hover">
+                                <div class="guide-img">
+                                    <img src="images/people3.jpg" alt="">
+                                </div>
+                                <div class="icon-box">
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                                <h4>Leslie Alexande</h4>
+                                <p>Tourist Guide</p>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="splide__container image-hover">
+                                <div class="guide-img">
+                                    <img src="images/people4.jpg" alt="">
+                                </div>
+                                <div class="icon-box">
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                                <h4>Derek Horton</h4>
+                                <p>Tourist Guide</p>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="splide__container image-hover">
+                                <div class="guide-img">
+                                    <img src="images/people5.jpg" alt="">
+                                </div>
+                                <div class="icon-box">
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                                <h4>Andrew Hogan</h4>
+                                <p>Tourist Guide</p>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="splide__container image-hover">
+                                <div class="guide-img">
+                                    <img src="images/people6.jpg" alt="">
+                                </div>
+                                <div class="icon-box">
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                                <h4>Jennie Bennett</h4>
+                                <p>Tourist Guide</p>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="arrow-right" onclick="splide3.go('+${3}')">
+                <i class="fas fa-chevron-right"></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="subs-sec">
+        <div class="subs-info">
+            <p>They were more than just guides</p>
+            <h3>Subscribe for travel tips.</h3>
+            <form action="" class="custom-anim" data-anim="form-anim">
+                <input type="email" placeholder="Your Email" class="subscribe-form">
+                <input type="submit" value="subscribe" class="subs-btn">
+            </form>
+        </div>
+        <div class="subs-img">
+            <img src="images/phone.png" alt="">
+        </div>
+    </section>
+
+    <footer>
+        <div class="foot-div">
+            <div class="left-foot-div">
+                <div class="logo">
+                    <a href="#">
+                        <img src="images/logo.png" alt="">
+                        <h2>ARC Travel</h2>
+                    </a>
+                </div>
+                <p>Everything was seamless. The private guides were interesting</p>
+                <div class="foot-info">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Grand Conference Hall - 881 7th Ave New York, NY</span>
+                </div>
+                <div class="foot-info">
+                    <i class="fas fa-phone-alt"></i>
+                    <a href="tel:+1502 2365 4585">+ 1502 2365 4585</a>
+                </div>
+                <div class="foot-info">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:info@arc.com">info@arc.com</a>
+                </div>
+                <div class="foot-icon-box">
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-youtube"></i></a>
+                </div>
+
+            </div>
+            <div class="mid-foot-div">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="">Process</a></li>
+                    <li><a href="">Discount</a></li>
+                </ul>
+            </div>
+            <div class="right-foot-div">
+                <h3>All The Travel News <span>You Need To Know</span></h3>
+                <div class="foot-carousel">
+                    <div class="splide splide4">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">
+                                    <div class="splide__container">
+                                        <div class="foot-content">
+                                            <div class="foot-img">
+                                                <img src="images/foot1.jpeg" alt="">
+                                            </div>
+                                            <div class="foot-details">
+                                                <h4>Maldives-Your Personal Paradise</h4>
+                                                <p>Everything was seamless. The private guides were interesting and...
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="splide__container">
+                                        <div class="foot-content">
+                                            <div class="foot-img">
+                                                <img src="images/foot2.jpeg" alt="">
+                                            </div>
+                                            <div class="foot-details">
+                                                <h4>The One Venetian Tourist Trap Everyone Falls Into</h4>
+                                                <p>Everything was seamless. The private guides were interesting and...
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="splide__container">
+                                        <div class="foot-content">
+                                            <div class="foot-img">
+                                                <img src="images/foot3.jpeg" alt="">
+                                            </div>
+                                            <div class="foot-details">
+                                                <h4>Exciting Discoveries And Adventures</h4>
+                                                <p>Everything was seamless. The private guides were interesting and...
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="splide__container">
+                                        <div class="foot-content">
+                                            <div class="foot-img">
+                                                <img src="images/foot4.jpeg" alt="">
+                                            </div>
+                                            <div class="foot-details">
+                                                <h4>Unforgettable Trip To Wild Srilanka</h4>
+                                                <p>Everything was seamless. The private guides were interesting and...
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="splide-4.1.3/dist/js/splide.js"></script>
+    <script src="splide-4.1.3/dist/js/splide-extension-auto-scroll.min.js"></script>
+    <script>
+        var abc = new Splide('.splide1', {
+            type: 'loop',
+            arrows: false,
+            pagination: false,
+        });
+        abc.mount();
+    </script>
+
+    <script>
+        const splide = new Splide('.splide2', {
+            type: 'loop',
+            drag: 'free',
+            focus: 'center',
+            perPage: 3,
+            arrows: false,
+            pagination: false,
+            autoScroll: {
+                speed: 0,
+                // pauseOnHover: false,
+            },
+        });
+
+        // splide.mount();
+        splide.mount(window.splide.Extensions);
+    </script>
+
+    <script>
+        var splide3 = new Splide('.splide3', {
+            type: 'loop',
+            perPage: 3,
+            perMove: 3,
+            autoplay: true,
+            arrows: false,
+            pagination: false,
+        });
+        splide3.mount();
+    </script>
+
+
+    <script>
+        var splide4 = new Splide('.splide4', {
+            height: 370,
+            direction: "ttb",
+            pagination: false,
+            arrows: false,
+            perPage: 2,
+            type: 'loop',
+            autoplay: true,
+        });
+        splide4.mount();
+    </script>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion-head");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var accordionBody = this.nextElementSibling;
+                if (!this.classList.contains("active")) {
+                    accordionBody.style.height = "0px";
+                    this.children[1].style.transform = "rotate(0deg)";
+                } else {
+                    accordionBody.style.height = accordionBody.scrollHeight + "px";
+                    this.children[1].style.transform = "rotate(180deg)";
+                }
+            });
+        }
+    </script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
