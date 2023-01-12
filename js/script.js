@@ -119,6 +119,7 @@ function header_change(){
 }
 
 function custom_anim(){
+    const offset_v = 40;
     const height = window.innerHeight;
     var pos_top = $(window).scrollTop()
     var pos_bottom = pos_top + height
@@ -128,11 +129,24 @@ function custom_anim(){
     for (i = 0; i < anim_items.length; i++) {
         var x = $(anim_items[i]).offset().top;
         var y = $(anim_items[i]).height() + x;
-        // console.log(y)
-        if( x > pos_top && y < pos_bottom ){
-            $(anim_items[i]).addClass($(anim_items[i]).data("anim"));
+
+        offset_x = x + offset_v;
+        offset_y = y - offset_v;
+
+        mid = (x + y) / 2;
+        
+        if(offset_x < offset_y){
+            if( offset_x > pos_top || offset_y < pos_bottom ){
+                $(anim_items[i]).addClass($(anim_items[i]).data("anim"));
+            }
         }
         else{
+            if( mid > pos_top && mid < pos_bottom ){
+                $(anim_items[i]).addClass($(anim_items[i]).data("anim"));
+            }
+        }
+
+        if( ( x < pos_top && y < pos_top ) || ( x > pos_bottom && y > pos_bottom ) ){
             $(anim_items[i]).removeClass($(anim_items[i]).data("anim"));
         }
     }
