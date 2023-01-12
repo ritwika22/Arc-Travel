@@ -11,6 +11,10 @@ body {
     --cdel: 0s;
 }
 
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
 /* |||HEADER START||| */
 
 
