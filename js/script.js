@@ -156,3 +156,4 @@ document.addEventListener("scroll", header_change);
 document.addEventListener("touchmove", header_change);
 document.addEventListener("scroll", custom_anim);
 document.addEventListener("touchmove", custom_anim);
+$(document).ready(custom_anim);
