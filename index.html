@@ -978,6 +978,7 @@
                 </div>
             </div>
         </div>
+        <p>© ARC Travel. All Rights Reserved 2023. Designed By <a href="">Ritwika</a></p>
     </footer>
 
 
@@ -1000,13 +1001,17 @@
             drag: 'free',
             focus: 'center',
             perPage: 3,
-            arrows: false,
-            pagination: false,
-            autoScroll: {
-                speed: 0,
-                // pauseOnHover: false,
-            },
-        });
+            // breakpoints: {
+            //     350: {
+            //         perPage: 1,
+            //     },
+                arrows: false,
+                pagination: false,
+                autoScroll: {
+                    speed: 0,
+                    // pauseOnHover: false,
+                },
+            });
 
         // splide.mount();
         splide.mount(window.splide.Extensions);
@@ -1020,20 +1025,40 @@
             autoplay: true,
             arrows: false,
             pagination: false,
+            breakpoints: {
+                450: {
+                    perPage: 1,
+                },
+                790: {
+                    perPage: 2,
+                },
+            }
         });
         splide3.mount();
     </script>
 
 
     <script>
+        var mh = ($(".splide4 .splide__container").outerHeight() + 100) * 2;
+        // var th = ($(".splide4 .splide__container").outerHeight() + 100) * 2;
+        var dh = ($(".splide4 .splide__container").outerHeight() + 30) * 2;
         var splide4 = new Splide('.splide4', {
-            height: 370,
+            height: dh,
             direction: "ttb",
             pagination: false,
             arrows: false,
             perPage: 2,
             type: 'loop',
             autoplay: true,
+            breakpoints: {
+                450: {
+                    height: mh,
+                },
+                // 790: {
+                //     height: th,
+                // },
+            }
+           
         });
         splide4.mount();
     </script>
