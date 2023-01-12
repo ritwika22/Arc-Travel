@@ -149,6 +149,7 @@
     width: 100%;
     background-attachment: unset;
     padding-left: 0;
+    overflow: hidden;
   }
   .subs-info{
     width: 60%;
