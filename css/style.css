@@ -300,6 +300,7 @@ body {
     padding-left: 5%;
     padding-right: 5%;
     width: 40%;
+    opacity: 0;
 }
 
 .about-write>h5 {
@@ -435,13 +436,13 @@ body {
     0% {
         opacity: 0;
         transform: translateX(70px);
-        letter-spacing: 5px;
+        /* letter-spacing: 5px; */
     }
 
     100% {
         opacity: 1;
         transform: translateX(0);
-        letter-spacing: normal;
+        /* letter-spacing: normal; */
     }
 }
 
