@@ -152,6 +152,9 @@
     padding-left: 0;
     overflow: hidden;
   }
+  form{
+    width: 100%;
+  }
   .subs-info{
     width: 60%;
   }
@@ -453,6 +456,9 @@
   }
   .subs-img{
     display: none;
+  }
+  form{
+    width: 100%;
   }
   .subs-info{
     width: 80%;

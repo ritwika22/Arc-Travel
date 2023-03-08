@@ -33,7 +33,7 @@ body {
 }
 
 .white-bg{
-    background-color: rgba(255, 255, 255);
+    background-color: rgba(255, 255, 255) !important;
     box-shadow: 0 -10px 50px 50px #0000003c;
     /* color: #000; */
 }
@@ -1233,7 +1233,7 @@ form{
     align-items: stretch;
     margin-top: 20px;
     opacity: 0;
-    width: 100%;
+    width: 125%;
     /* box-shadow: 0 -10px 50px 50px #0000008a; */
 }
 
@@ -1253,7 +1253,7 @@ form{
     }
 }
 .subscribe-form{
-    width: 65%;
+    width: 90%;
     display: block;
     height: 54px;
     margin-bottom: 0px;
@@ -1277,7 +1277,7 @@ form{
     transition: background-color 500ms ease;
     font-family: Lato, sans-serif;
     color: #fff;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 1.15;
     text-align: center;
     letter-spacing: 3px;
@@ -1285,7 +1285,7 @@ form{
     border: none;
     cursor: pointer;
     display: block;
-    width: 35%;
+    width: 50%;
 }
 .subs-btn:hover{
     background-color: #0e0e0e;
